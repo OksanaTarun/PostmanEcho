@@ -17,6 +17,6 @@ public class PostmanEcho {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("123"));
+                .body("data", equalTo("124"));
     }
 }
